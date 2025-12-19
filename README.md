@@ -23,9 +23,9 @@ This project compares Linear Regression and Random Forest models to predict stud
 ├── student_data/
 │   └── student-mat.csv       # Dataset
 └── outputs/
-├── metrics/
-│   └── results.txt       # Model comparison results
-└── plots/                # Visualization outputs
+   ├── metrics/
+   │   └── results.txt       # Model comparison results
+   └── plots/                # Visualization outputs
 ```
 
 ## Requirements
