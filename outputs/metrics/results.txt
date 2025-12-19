@@ -1,0 +1,46 @@
+============================================================
+STUDENT PERFORMANCE PREDICTION - MODEL COMPARISON
+============================================================
+
+
+Model: Linear Regression - With G1 & G2
+------------------------------------------------------------
+Training R²:    0.8656
+Testing R²:     0.7241
+Training MAE:   1.1645
+Testing MAE:    1.6467
+Training RMSE:  1.6802
+Testing RMSE:   2.3784
+CV R² (mean):   0.8263 (+/- 0.0465)
+
+Model: Random Forest - With G1 & G2
+------------------------------------------------------------
+Training R²:    0.9832
+Testing R²:     0.8196
+Training MAE:   0.3614
+Testing MAE:    1.1664
+Training RMSE:  0.5938
+Testing RMSE:   1.9233
+CV R² (mean):   0.9049 (+/- 0.0471)
+
+Model: Linear Regression - Without G1 & G2
+------------------------------------------------------------
+Training R²:    0.2888
+Testing R²:     0.1415
+Training MAE:   2.9462
+Testing MAE:    3.3953
+Training RMSE:  3.8651
+Testing RMSE:   4.1957
+CV R² (mean):   -0.0781 (+/- 0.2791)
+
+Model: Random Forest - Without G1 & G2
+------------------------------------------------------------
+Training R²:    0.8658
+Testing R²:     0.2733
+Training MAE:   1.2879
+Testing MAE:    3.0983
+Training RMSE:  1.6791
+Testing RMSE:   3.8601
+CV R² (mean):   0.2680 (+/- 0.1343)
+
+============================================================

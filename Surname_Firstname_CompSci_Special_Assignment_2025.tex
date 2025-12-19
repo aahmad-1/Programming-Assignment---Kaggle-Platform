@@ -1,0 +1,79 @@
+\documentclass[times, a4paper, 12pt, onecolumn, oneside]{article} 
+
+\usepackage[a4paper,left=2.0cm,right=2.0cm,bottom=1.0cm,top=2.0cm,includefoot,includehead]{geometry}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{graphicx} 
+
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\date{}
+\lhead{{\em Surname  (LUT) }}
+\chead{Project name}
+\rhead{\today}
+
+\usepackage{natbib}
+\bibliographystyle{apalike}
+
+
+\title{Write Your Title}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    Short abstract, max 100 words. Remember, max 3 page report, including references!
+\end{abstract}
+
+\section{Introduction}
+\begin{itemize}
+    \item Problem statement
+    \item Literature / References 
+    \item Remember proper citations, for example,  use either \citet{Lindgren2011} or \citep{Roininen2014} -- whenever appropriate. Ask the lecturer or teaching assistants for help, if you need help in citing. 
+\end{itemize}
+
+
+\section{Model}
+
+\begin{itemize}
+    \item Give ODE, SDE, similar in Equation form, e.g. 
+    \begin{equation} \label{eqn:stochasticprocess}
+        X(t) \sim \mathcal N (0,C(t,t')),
+    \end{equation}
+    where $X(t)$ is the unknown, with $t\in\mathbb{R}$, and it is a zero mean stochastic process with covariance $C(t,t')$.
+    \item Clearly explain the target unknown, define all the objects, and the space the objects are in. If needed, refer to Equation \eqref{eqn:stochasticprocess}, if needed (capitalise E).
+    \item Write prior, likelihood and posterior distributions.
+\end{itemize}
+
+\section{Methods}
+
+\begin{itemize}
+    \item Shortly describe the method you are using 4DVAR/3DVAR/EKF etc.
+    \item Which packages and frameworks do you use....
+\end{itemize}
+
+\section{Numerical Examples}
+
+\begin{itemize}
+    \item Make visualisations, use big enough fonts (about the same size as text itself).
+    \item Include captions.
+    \item Use vector graphics (if possible).
+    \item Explain all the figures in the text.
+    \item Write: "In Figure XX..." (capitalise F)
+\end{itemize}
+
+\section{Conclusions}
+
+\begin{itemize}
+    \item Report on usability of the chosen packages/frameworks with respect to ease of installing, using etc.
+    \item The results obtained
+    \item Possible future studies, e.g.\ possibility to use in practical engineering or thesis work.
+\end{itemize}
+
+\bibliography{references}
+
+\end{document}
