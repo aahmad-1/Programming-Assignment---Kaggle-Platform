@@ -10,6 +10,12 @@ This project compares Linear Regression and Random Forest models to predict stud
 
 ## Project Structure
 ```
+├── notebooks/ exploring the dataset and testing models
+│   ├── linear_regression_test1.ipynb
+│   ├── linear_regression_test2.ipynb
+│   ├── random_forest_test1.ipynb
+│   ├── random_forest_test2.ipynb
+│   ├── student_data_analysis.ipynb
 ├── src/
 │   ├── data_prep.py          # Data loading and preprocessing
 │   ├── train.py              # Model training and evaluation
