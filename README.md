@@ -10,24 +10,37 @@ This project compares Linear Regression and Random Forest models to predict stud
 
 ## Project Structure
 ```
-├── notebooks/               
-│   ├── linear_regression_test1.ipynb
-│   ├── linear_regression_test2.ipynb
-│   ├── random_forest_test1.ipynb
-│   ├── random_forest_test2.ipynb
-│   ├── student_data_analysis.ipynb  #exploring the dataset 
-├── src/
-│   ├── data_prep.py          # Data loading and preprocessing
-│   ├── train.py              # Model training and evaluation
-│   └── visualizations.py     # Results visualization
-├── student_data/
-│   └── student-mat.csv       # Dataset
-└── outputs/
-   ├── metrics/
-   │   └── results.txt       # Model comparison results
-   └── plots/                # Visualization outputs
-```
+Programming Assignment - Kaggle Platform
+├─ gradePrediction_environment.yml
+├─ notebooks
+│  ├─ linear_regression_test1.ipynb
+│  ├─ linear_regression_test2.ipynb
+│  ├─ random_forest_test1.ipynb
+│  ├─ random_forest_test2.ipynb
+│  └─ student_data_analysis.ipynb
+├─ outputs
+│  ├─ factor_importance.npy
+│  ├─ metrics
+│  │  └─ results.txt
+│  ├─ plots
+│  │  ├─ lr_without_g1g2.png
+│  │  ├─ lr_with_g1g2.png
+│  │  ├─ rf_without_g1g2.png
+│  │  ├─ rf_without_g1g2_importance.png
+│  │  ├─ rf_with_g1g2.png
+│  │  └─ rf_with_g1g2_importance.png
+│  └─ predictions.npy
+├─ Paturusi_Ahmad_CompSci_Special_Assignment_2025.pdf
+├─ README.md
+├─ requirements.txt
+├─ src
+│  ├─ data_prep.py
+│  ├─ train.py
+│  └─ visualizations.py
+└─ student_data
+   └─ student-mat.csv
 
+```
 
 ## Requirements
 
