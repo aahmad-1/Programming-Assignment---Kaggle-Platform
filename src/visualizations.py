@@ -72,18 +72,26 @@ if __name__ == "__main__":
     predictions = np.load(predictions_path, allow_pickle=True).item()
     factor_importance = np.load(importance_path, allow_pickle=True).item()
     
-    # Generate regression plots 
     for key, (y_true, y_pred) in predictions.items():
         model_type = "Linear Regression" if "lr" in key else "Random Forest"
-        g1g2_status = "With G1 & G2" if "with" in key else "Without G1 & G2"
+        if "with_g1g2" in key:
+            g1g2_status = "With G1 & G2"
+        elif "without_g1g2" in key:
+            g1g2_status = "Without G1 & G2"
+        else:
+            g1g2_status = "Unknown"
         model_name = f"{model_type} ({g1g2_status})"
         save_path = f"./outputs/plots/{key}.png"
         
         plot_regression_results(y_true, y_pred, model_name, save_path)
     
-    # Generate factor importance plots
     for key, importance_df in factor_importance.items():
-        g1g2_status = "With G1 & G2" if "with" in key else "Without G1 & G2"
+        if "with_g1g2" in key:
+            g1g2_status = "With G1 & G2"
+        elif "without_g1g2" in key:
+            g1g2_status = "Without G1 & G2"
+        else:
+            g1g2_status = "Unknown"
         model_name = f"Random Forest ({g1g2_status})"
         save_path = f"./outputs/plots/{key}_importance.png"
         

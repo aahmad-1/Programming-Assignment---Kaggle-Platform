@@ -97,3 +97,37 @@ Programming Assignment - Kaggle Platform
 ├─ Surname_Firstname_CompSci_Special_Assignment_2025.pdf
 └─ Surname_Firstname_CompSci_Special_Assignment_2025.tex
 ```
+```
+Programming Assignment - Kaggle Platform
+├─ notebooks
+│  ├─ linear_regression_test1.ipynb
+│  ├─ linear_regression_test2.ipynb
+│  ├─ random_forest_test1.ipynb
+│  ├─ random_forest_test2.ipynb
+│  └─ student_data_analysis.ipynb
+├─ outputs
+│  ├─ factor_importance.npy
+│  ├─ metrics
+│  │  └─ results.txt
+│  ├─ plots
+│  │  ├─ lr_without_g1g2.png
+│  │  ├─ lr_with_g1g2.png
+│  │  ├─ rf_without_g1g2.png
+│  │  ├─ rf_without_g1g2_importance.png
+│  │  ├─ rf_with_g1g2.png
+│  │  └─ rf_with_g1g2_importance.png
+│  └─ predictions.npy
+├─ README.md
+├─ references.bib
+├─ src
+│  ├─ data_prep.py
+│  ├─ train.py
+│  ├─ visualizations.py
+│  └─ __pycache__
+│     └─ data_prep.cpython-313.pyc
+├─ student_data
+│  └─ student-mat.csv
+├─ Surname_Firstname_CompSci_Special_Assignment_2025.pdf
+└─ Surname_Firstname_CompSci_Special_Assignment_2025.tex
+
+```
