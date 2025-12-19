@@ -28,13 +28,23 @@ This project compares Linear Regression and Random Forest models to predict stud
    └── plots/                # Visualization outputs
 ```
 
+
 ## Requirements
 
-- Python 3.x
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
+This project was developed and tested using the following environment:
+
+- Python 3.11.14
+- numpy 2.3.5
+- pandas 2.3.3
+- matplotlib 3.10.7
+- scikit-learn 1.7.1
+
+## Installation
+
+Install the required dependencies using:
+
+```bash
+pip install -r requirements.txt
 
 ## Usage
 
