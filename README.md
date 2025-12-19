@@ -9,6 +9,7 @@ This project compares Linear Regression and Random Forest models to predict stud
 - **Without G1 & G2**: Predicting performance based solely on demographic and social factors
 
 ## Project Structure
+```
 ├── src/
 │   ├── data_prep.py          # Data loading and preprocessing
 │   ├── train.py              # Model training and evaluation
@@ -19,6 +20,7 @@ This project compares Linear Regression and Random Forest models to predict stud
 ├── metrics/
 │   └── results.txt       # Model comparison results
 └── plots/                # Visualization outputs
+```
 
 ## Requirements
 
