@@ -11,7 +11,6 @@ This project compares Linear Regression and Random Forest models to predict stud
 ## Project Structure
 ```
 Programming Assignment - Kaggle Platform
-├─ gradePrediction_environment.yml
 ├─ notebooks
 │  ├─ linear_regression_test1.ipynb
 │  ├─ linear_regression_test2.ipynb
